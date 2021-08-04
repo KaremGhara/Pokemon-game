@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Pokemon</title>
+
+    <link href="gameCatch.css" rel="stylesheet" />
+    <script src="game.js"></script>
+    <script src="pokemon.json-master/pokedex.js"></script>
+</head>
+<body onload="init()">
+    <div id="container1">
+        <img src="SelectPoke.png" id="bgAll1" />
+        <div>
+            <p id="text1">Choose two pokemons to battle!</p>
+        </div>
+        <div>
+            <button id="btn1" onclick="newPokemon()">New Pokemons!</button>
+        </div>
+        <img src="pokemon.json-master/images/005.png" alt="png" id="select" onclick="selectp(this.id)" />
+        <img src="pokemon.json-master/images/001.png" alt="png" id="select1" onclick="selectp(this.id)" />
+        <img src="pokemon.json-master/images/066.png" alt="png" id="select2" onclick="selectp(this.id)" />
+
+        <div id="toGame1"></div>
+        <div id="toGame2"></div>
+        <div id="toGame3"></div>
+        <div>
+            <a href="Battle.html" id="selected4"><img src="fight1.png" id="fight" /></a>
+</div>
+    </div>
+
+</body>
+</html>

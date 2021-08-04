@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<head>
+    <title>Pokemon</title>
+    <link href="battle2.css" rel="stylesheet" />
+    <script src="battle1.js"></script>
+    <script src="pokemon.json-master/pokedex.js"></script>
+</head>
+
+<body onload="init()">
+    <div class="game">
+        <div class="opponent">
+            <div class="stats">
+                <div class="top">
+
+                    <div id="apHP" class="hp-count">100</div>
+                </div>
+                <span class="name">
+                    Opponent
+                </span>
+
+            </div>
+            <img class="pokemon" id="pok" src="" alt="A sprite of charizard" />
+        </div>
+        <div class="player">
+            <div class="stats">
+                <div class="top">
+                    <div id="myHP" class="hp-count">100</div>
+                </div>
+                <span class="name">
+                    My Pokemon
+                </span>
+                
+            </div>
+            <img class="pokemon" id="pok1" src="" alt="A gif from blastoises back sprite" />
+        </div>
+    </div>
+    <div class="box">
+        <div id="message" class="message">
+            What should Blastoise do?
+        </div>
+        <div class="actions">
+            <button onclick="All()">Punch</button>
+            <button onclick="All()">Kick</button>
+            <button onclick="All()">Magic</button>
+            <button onclick="All()">Hard Punch</button>
+            
+        </div>
+        
+    </div>
+</body>
